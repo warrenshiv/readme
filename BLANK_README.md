@@ -127,10 +127,11 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+4. Create a .env file
+   ```sh
+   -> Copy content from .env.example
+   -> Paste it in your .env file
+5. Run php `artisan key:generate`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +194,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/warrenshiv/Referral-Request-FrontEnd](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
