@@ -1,29 +1,9 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -32,17 +12,9 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Referral Request</h3>
+<h3 align="center">Referral System</h3>
 
-  <p align="center">
-    Project_description
-    <br />
-    <a href=#><strong>Explore the docs »</strong></a>
-    <br />
-  </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -57,17 +29,17 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#set-up">Set-up</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#Flowchart">Flowchart</a></li>
+    <li><a href="#Use Case Diagram">Use Case Diagram</a></li>
+    <li><a href="#Use Case Diagram">Activity Diagram</a></li>
+    <li><a href="#Use Case Diagram">Data Flow Diagram</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -76,7 +48,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Referral System Screen Shot][product-screenshot]
+
+### Referral System
+
+```sh
+The referral system is a web-based application that allows users to create and manage referrals for medical services. It facilitates the seamless transfer of patients from one healthcare provider to another, ensuring efficient coordination and continuity of care.
+```
+_For more information, please refer to the [Documentation](docs\doc.md)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,13 +71,6 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-### Prerequisites
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -156,45 +128,59 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Flowchart
+
+[![Patient Referral System Flowchart](https://camo.githubusercontent.com/4c6e7df670a663d3dfc14946ff20ba845cc0a423ebd4ed55d5dc4b8ac6e88ce0/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f466c6f7725323063686172742e706e67)](https://camo.githubusercontent.com/4c6e7df670a663d3dfc14946ff20ba845cc0a423ebd4ed55d5dc4b8ac6e88ce0/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f466c6f7725323063686172742e706e67)
+
+The flowchart shows the high-level process flow for the patient referral system. The process begins with client registration, and continues with the capture of medical information and clinical summary. A referral is then created, and the referral status is tracked until feedback is received.
+
+## [](https://github.com/ernestnash/Referal_module#use-case-diagram)Use Case Diagram
+
+[![Patient Referral System Use Case Diagram](https://camo.githubusercontent.com/b58326dc63821ceb16a80f70761f3ab38117cbf94d61f1dad47ae22aa1bbbac7/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f526566657272616c25323076657273696f6e253230322d5573652d636173652532306469616772616d2e64726177696f2532302832292e706e67)](https://camo.githubusercontent.com/b58326dc63821ceb16a80f70761f3ab38117cbf94d61f1dad47ae22aa1bbbac7/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f526566657272616c25323076657273696f6e253230322d5573652d636173652532306469616772616d2e64726177696f2532302832292e706e67)
+
+The use case diagram shows the different actors that interact with the patient referral system and the use cases that they can perform. The actors include the client, referring health worker, referral coordinator, receiving facility and shared health record
+
+## [](https://github.com/ernestnash/Referal_module#activity-diagram)Activity Diagram
+
+[![Patient Referral System Flowchart](https://camo.githubusercontent.com/5387418fb78d8aa7ce48b20fe7f7462d3770526ef4fc640a4560b787e138370f/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f526566657272616c25323076657273696f6e253230322d506167652d362e64726177696f2e706e67)](https://camo.githubusercontent.com/5387418fb78d8aa7ce48b20fe7f7462d3770526ef4fc640a4560b787e138370f/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f526566657272616c25323076657273696f6e253230322d506167652d362e64726177696f2e706e67)
+
+The flowchart shows the high-level process flow for the patient referral system. The process begins with client registration, and continues with the capture of medical information and clinical summary. A referral is then created, and the referral status is tracked until feedback is received.
+
+## [](https://github.com/ernestnash/Referal_module#data-flow-diagram)Data Flow Diagram
+
+[![Patient Referral System Data Flow Diagram](https://camo.githubusercontent.com/362bcd78c11ced03fe1282a136ceed85eda779c8af27ff941a28ce76115a567c/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f5768617473417070253230496d616765253230323032332d30342d31342532306174253230322e35302e3136253230504d2e6a706567)](https://camo.githubusercontent.com/362bcd78c11ced03fe1282a136ceed85eda779c8af27ff941a28ce76115a567c/68747470733a2f2f696d6167657374756d2e626c6f622e636f72652e77696e646f77732e6e65742f6469616772616d732f5768617473417070253230496d616765253230323032332d30342d31342532306174253230322e35302e3136253230504d2e6a706567)
+
+The data flow diagram shows the flow of information in the patient referral system. The system captures information about clients, medical information, referrals, and feedback, and stores this information in a database. The information is then used to generate reports and provide feedback to the referring health worker.)
+
+The activity diagram shows the detailed process flow for creating a referral in the patient referral system. The process begins with the creation of a new referral, and continues with the selection of the referral priority, entry of the diagnosis and reason for referral, selection of the physician/provider, and submission of the referral. The process concludes with the tracking of the referral status until feedback is received.
+
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+2. Create your Feature Branch (`git checkout -b feature-name`)
+3. Commit your Changes (`git commit -m 'Add Feature'`)
+4. Push to the Branch (`git push origin feature-name`)
+5. Submit a pull request explaining the changes you have made.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
+## License
 
+This referral system is open-source and released under the [MIT License](https://chat.openai.com/c/LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
-* []()
-* []()
-* []()
+If you have any questions, suggestions, or feedback, please reach out to the project maintainers at tumhis@tum.ac.ke.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Thank you for using the referral system!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
