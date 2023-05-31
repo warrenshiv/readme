@@ -81,10 +81,14 @@ _For more information, please refer to the [Documentation](docs.md)_
    npm install
    ```
 4. Create a .env file
+
+   -  Copy content of the .env.example file
+   -  Paste it in your .env file
+
+5. Run
    ```sh
-   -> Copy content from .env.example
-   -> Paste it in your .env file
-5. Run php `artisan key:generate`
+   artisan key:generate
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,12 +97,11 @@ _For more information, please refer to the [Documentation](docs.md)_
 ### Set-up
 
 1. Setup Database Credentials in the .env file.
-   ```sh
-   DB_HOST=localhost
-   DB_DATABASE=''
-   DB_USERNAME=''
-   DB_PASSWORD=''
-   ```
+   -  DB_HOST=localhost
+   -  DB_DATABASE=''
+   -  DB_USERNAME=''
+   -  DB_PASSWORD=''
+
 2. Publish all the schema to the database.
    ```sh
    php artisan:migrate
@@ -108,17 +111,15 @@ _For more information, please refer to the [Documentation](docs.md)_
    php artisan tinker
    User::factory()->count(5)->create()
    ```
-4. Navigate to your browser and type in “localhost/foldernameinHTdocs/” in the address bar to access the login page.
+4. Navigate to your browser and type “localhost/foldernameinHTdocs/” in the address bar to access the login page.
 5. How to get the users' credentials
-   ```sh
-   -> Access your database
-   -> Open the users table
-   -> Copy any of the usernames and paste it in the login page - username section
-   -> The password is, "password"
+   -  Access your database
+   -  Open the users table
+   -  Copy any of the usernames and paste it in the login page - username section
+   -  The password is, "password"
 6. Create faker for user and roles
-   ```sh
-   -> Edit the roles table.
-   -> Insert the role, guard_name, and the logged in user id in the role_id
+   -  Edit the roles table.
+   -  Insert the role, guard_name, and the logged in user id in the role_id
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
