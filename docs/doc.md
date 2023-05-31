@@ -1,10 +1,8 @@
 ## Referral System
-
-```sh
 The referral system is a web-based application that allows users to create and manage referrals for medical services. It facilitates the seamless transfer of patients from one healthcare provider to another, ensuring efficient coordination and continuity of care.
-```
+
 ## Features
-```sh
+
 -   **User Authentication**: The system provides user authentication functionality to ensure secure access to the referral system. Users can register, login, and manage their account credentials.
     
 -   **Worklist**: The worklist displays a list of patients awaiting referral. It provides an overview of patients' information such as name, age, contact details, and referral status.
@@ -16,14 +14,10 @@ The referral system is a web-based application that allows users to create and m
 -   **Validation and Error Handling**: The system performs validation checks on form inputs to ensure data integrity and accuracy. It provides error messages and feedback to users for any incorrect or missing information.
     
 -   **Submit and Processing**: Upon completing the referral form, users can submit the request. The system processes the referral request, performs necessary operations, and stores the referral details securely.
-```
     
 ## Technologies Used
-```sh
 -   **Front-end**: The user interface is built using HTML, CSS, and JavaScript. It incorporates a responsive design to ensure compatibility across various devices.
     
 -   **Backend**: The system utilizes the Laravel framework, a PHP-based web application framework, to handle server-side logic, database interactions, and API integrations.
     
 -   **Database**: MySQL is used as the database management system to store and retrieve referral data. It provides data persistence and efficient querying capabilities.
-```
-_For more information, please refer to the [Documentation](readme\README.md)_
