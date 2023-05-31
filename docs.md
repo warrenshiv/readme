@@ -21,3 +21,5 @@ The referral system is a web-based application that allows users to create and m
 -   **Backend**: The system utilizes the Laravel framework, a PHP-based web application framework, to handle server-side logic, database interactions, and API integrations.
     
 -   **Database**: MySQL is used as the database management system to store and retrieve referral data. It provides data persistence and efficient querying capabilities.
+
+_[(back to main)](README.md)_

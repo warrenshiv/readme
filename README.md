@@ -5,13 +5,11 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
 <h3 align="center">Referral System</h3>
-
 </div>
+<br />
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -51,7 +49,7 @@
 
 The referral system is a web-based application that allows users to create and manage referrals for medical services. It facilitates the seamless transfer of patients from one healthcare provider to another, ensuring efficient coordination and continuity of care.
 
-_For more information, please refer to the [Documentation](docs/doc.md)_
+_For more information, please refer to the [Documentation](docs.md)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
